@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large local project artifacts
+data/
+runs/
+outputs/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+
+# Archives
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.pptx
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/

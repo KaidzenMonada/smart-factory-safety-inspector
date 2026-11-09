@@ -1,0 +1,22 @@
+# Python 3.11.9
+#
+# The installed PyTorch build is CUDA 12.1:
+# torch 2.5.1+cu121, torchvision 0.20.1+cu121.
+# These CUDA wheels usually require the PyTorch CUDA 12.1 package index
+# during installation; document the exact install command in the README.
+
+ultralytics==8.4.96
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+opencv-python==5.0.0.93
+numpy==2.4.4
+pandas==3.0.3
+polars==1.42.1
+matplotlib==3.11.0
+Pillow==12.2.0
+PyYAML==6.0.3
+nbformat==5.10.4
+psutil==7.2.2
+requests==2.34.2
+nvidia-ml-py==13.610.43
+ultralytics-thop==2.0.20
